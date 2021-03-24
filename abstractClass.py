@@ -12,6 +12,8 @@ class PersonAbstact(ABC):
         pass
 
 class Person(PersonAbstact):
-    pass
+    def getFull(self):
+    	self.getName()
+        self.getAge()
     
 Person();
